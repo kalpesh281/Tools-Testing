@@ -11,7 +11,7 @@ app.get('/hello', (req, res) => {
 });
 
 app.get('/', (req, res) => {
-  res.status(200).send('Welcome to the Express server!!!!!!');
+  res.status(200).send('Welcome to the Express server!');
 });
 
 
